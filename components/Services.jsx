@@ -1,53 +1,49 @@
 export default function Services() {
-    const reasons = [
+    const services = [
         {
-            name: 'Complete Full-Stack Systems',
+            name: 'Full-Stack Web Development',
             icon: '/assets/web-icon.png',
-            description: 'I build complete full-stack systems — frontend + backend + DB',
+            description: 'End-to-end web applications with React frontend and FastAPI/Node.js backend. From UI design to database architecture.',
         },
         {
-            name: 'Modern Tech Stack',
-            icon: '/assets/mobile-icon.png',
-            description: 'Skilled with React, FastAPI, Node.js, PostgreSQL, Firebase',
-        },
-        {
-            name: 'AI Workflows',
+            name: 'AI Integration & Development',
             icon: '/assets/ui-icon.png',
-            description: 'Strong understanding of AI workflows (RAG, LangChain, Gemini)',
+            description: 'AI-powered applications, chatbots, RAG systems, and LangChain integrations. Build intelligent solutions with Gemini, OpenAI, and more.',
         },
         {
-            name: 'Real-Time Systems',
+            name: 'API Development & Optimization',
+            icon: '/assets/dev-icon.png',
+            description: 'RESTful APIs, real-time systems with WebSockets, database design, and performance optimization for scalable applications.',
+        },
+        {
+            name: 'CMS & No-Code Solutions',
             icon: '/assets/graphics-icon.png',
-            description: 'Experience with real-time messaging using WebSockets',
+            description: 'WordPress and Webflow websites. Fast deployment with modern design and functionality.',
         },
         {
-            name: 'Production-Ready',
-            icon: '/assets/web-icon.png',
-            description: 'I build production-ready UI & API architecture',
-        },
-        {
-            name: 'Fast Learner',
+            name: 'Frontend Development',
             icon: '/assets/mobile-icon.png',
-            description: 'I adapt fast, learn fast, and deliver high-quality solutions',
+            description: 'Responsive, modern UIs with React, Tailwind CSS. State management, performance optimization, and seamless user experiences.',
         },
         {
-            name: 'Versatile Tools',
-            icon: '/assets/ui-icon.png',
-            description: 'Hands-on experience in CMS, cloud, and modern developer tools',
-        }
+            name: 'Backend Development',
+            icon: '/assets/code-icon.png',
+            description: 'Server-side development with FastAPI (Python) and Node.js. Database design, authentication, and API architecture.',
+        },
     ];
+
     return (
         <div id="services" className="w-full px-[12%] py-10 scroll-mt-24">
-            <h4 className="text-center mb-2 text-lg font-Ovo">Why choose me</h4>
-            <h2 className="text-center text-5xl font-Ovo">Why Hire Me?</h2>
-            <p className="text-center max-w-2xl mx-auto mt-5 mb-12 font-Ovo">I bring a unique combination of full-stack development skills and real-world AI integration experience.</p>
+            <h4 className="text-center mb-2 text-lg font-Ovo">What I offer</h4>
+            <h2 className="text-center text-5xl font-Ovo">Services</h2>
+            <p className="text-center max-w-2xl mx-auto mt-5 mb-12 font-Ovo">Comprehensive development services for your next project. From concept to deployment, I deliver production-ready solutions.</p>
 
-            <div className="grid grid-cols-auto gap-6 my-10">
-                {reasons.map((reason) => (
-                    <div key={reason.name} className="border border-gray-300 dark:border-white/30 rounded-lg px-8 py-12 hover:shadow-black cursor-pointer hover:bg-lightHover hover:-translate-y-1 duration-500 dark:hover:bg-darkHover dark:hover:shadow-white">
-                        <img src={reason.icon} alt="" className="w-10" />
-                        <h3 className="text-lg my-4 text-gray-700 dark:text-white">{reason.name}</h3>
-                        <p className="text-sm text-gray-600 leading-5 dark:text-white/80">{reason.description}</p>
+            <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 max-w-6xl mx-auto">
+                {services.map((service) => (
+                    <div key={service.name} className="border border-gray-300 dark:border-white/30 rounded-xl p-6 cursor-pointer hover:bg-lightHover hover:-translate-y-1 duration-500 hover:shadow-black dark:hover:shadow-white/80 dark:hover:bg-darkHover/50">
+                        <img src={service.icon} alt="" className="w-10 mb-4" />
+                        <h3 className="text-lg font-semibold text-gray-700 dark:text-white mb-2">{service.name}</h3>
+                        <p className="text-sm text-gray-600 dark:text-white/80 leading-relaxed">{service.description}</p>
                     </div>
                 ))}
             </div>

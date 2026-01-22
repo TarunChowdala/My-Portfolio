@@ -58,7 +58,7 @@ export default function Navbar() {
         }
 
         // -------- Active section detection -----------
-        const sections = ['top', 'about', 'skills', 'services', 'work', 'experience', 'contact'];
+        const sections = ['top', 'about', 'skills', 'work', 'experience', 'contact'];
         
         const handleScroll = () => {
             const scrollPosition = window.scrollY + 150; // Offset for better detection
@@ -156,19 +156,6 @@ export default function Navbar() {
                                 }`}
                             >
                                 Skills
-                            </a>
-                        </li>
-                        <li>
-                            <a 
-                                href="#services" 
-                                onClick={(e) => handleNavClick(e, 'services')}
-                                className={`block px-4 py-2 rounded-lg transition ${
-                                    activeSection === 'services' 
-                                        ? 'bg-gradient-to-r from-[#b820e6] to-[#da7d20] text-white shadow-md' 
-                                        : 'hover:bg-lightHover dark:hover:bg-darkHover hover:text-gray-500 dark:hover:text-gray-300'
-                                }`}
-                            >
-                                Why Hire Me
                             </a>
                         </li>
                         <li>

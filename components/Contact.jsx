@@ -81,9 +81,9 @@ export default function Contact() {
     }, []);
     return (
         <div id="contact" className="w-full px-[12%] py-10 scroll-mt-24 bg-[url('/assets/footer-bg-color.png')] bg-no-repeat bg-[length:90%_auto] bg-center dark:bg-none">
-            <h4 className="text-center mb-2 text-lg font-Ovo">Connect with me</h4>
-            <h2 className="text-center text-5xl font-Ovo">Get in touch</h2>
-            <p className="text-center max-w-2xl mx-auto mt-5 mb-8 font-Ovo">I&apos;d love to hear from you! If you have any questions, comments or feedback, please use the form below.</p>
+            <h4 className="text-center mb-2 text-lg font-Ovo">Let&apos;s work together</h4>
+            <h2 className="text-center text-5xl font-Ovo">Want to build together?</h2>
+            <p className="text-center max-w-2xl mx-auto mt-5 mb-8 font-Ovo">I&apos;m open to freelance projects and full-time opportunities. Whether you need a full-stack developer for your next project or looking to add a team member, let&apos;s connect and discuss how we can bring your ideas to life.</p>
 
             {/* <div className="max-w-2xl mx-auto mb-12 flex flex-wrap justify-center gap-6 text-center">
                 <div className="flex flex-col items-center">
