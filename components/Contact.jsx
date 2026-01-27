@@ -104,7 +104,7 @@ export default function Contact() {
                 </div>
                 <div className="flex flex-col items-center">
                     <p className="text-sm text-gray-600 dark:text-white/60 mb-1">Location</p>
-                    <p className="text-gray-700 dark:text-white">Srikakulam / Hyderabad</p>
+                    <p className="text-gray-700 dark:text-white">Hyderabad, Telangana</p>
                 </div>
             </div> */}
 

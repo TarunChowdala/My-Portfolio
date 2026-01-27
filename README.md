@@ -179,7 +179,7 @@ Currently exploring **Generative AI** and building AI-powered applications! 🤖
 
 [![Email](https://img.shields.io/badge/Email-tarunchowdala300@gmail.com-red?style=for-the-badge&logo=gmail)](mailto:tarunchowdala300@gmail.com)
 [![Phone](https://img.shields.io/badge/Phone-%2B91%2079896%2085788-green?style=for-the-badge&logo=phone)](tel:+917989685788)
-[![Location](https://img.shields.io/badge/Location-Srikakulam%2C%20AP-blue?style=for-the-badge&logo=location)](https://maps.google.com)
+[![Location](https://img.shields.io/badge/Location-Hyderabad%2C%20Telangana-blue?style=for-the-badge&logo=location)](https://maps.google.com)
 
 </div>
 

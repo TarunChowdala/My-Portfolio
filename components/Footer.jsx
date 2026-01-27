@@ -14,7 +14,7 @@ export default function Footer() {
                 </div>
 
                 <div className="flex items-center justify-center gap-4 mb-4">
-                    <span className="text-sm text-gray-600 dark:text-white/70">📍 Srikakulam, Andhra Pradesh</span>
+                    <span className="text-sm text-gray-600 dark:text-white/70">📍 Hyderabad, Telangana</span>
                     <span className="text-sm text-gray-600 dark:text-white/70">📞 +91 79896 85788</span>
                 </div>
             </div>

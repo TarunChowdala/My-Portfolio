@@ -19,7 +19,7 @@ export default function Header() {
             <p className="max-w-2xl mx-auto font-Ovo">I build scalable full-stack applications using React, FastAPI, Node.js, and modern cloud technologies. I specialize in creating responsive UIs, efficient backend systems, and AI-powered features for real-world products.</p>
             
             <div className="flex flex-col sm:flex-row items-center gap-4 mt-2 text-sm text-gray-600 dark:text-white/70">
-                <span>📍 Srikakulam, Andhra Pradesh</span>
+                <span>📍 Hyderabad, Telangana</span>
                 <span>📞 +91 79896 85788</span>
                 <a href="mailto:tarunchowdala300@gmail.com" className="hover:text-gray-800 dark:hover:text-white">📧 tarunchowdala300@gmail.com</a>
             </div>
