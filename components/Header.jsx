@@ -15,7 +15,7 @@ export default function Header() {
                 <span className="text-sm font-medium text-purple-700 dark:text-purple-300">Currently exploring Generative AI</span>
             </div>
             
-            <h1 className="text-3xl sm:text-6xl lg:text-[66px] font-Ovo">Full Stack Developer & AI Enthusiast</h1>
+            <h1 className="text-3xl sm:text-6xl lg:text-[66px] font-Ovo">Full Stack Developer & AI Developer</h1>
             <p className="max-w-2xl mx-auto font-Ovo">I build scalable full-stack applications using React, FastAPI, Node.js, and modern cloud technologies. I specialize in creating responsive UIs, efficient backend systems, and AI-powered features for real-world products.</p>
             
             <div className="flex flex-col sm:flex-row items-center gap-4 mt-2 text-sm text-gray-600 dark:text-white/70">
