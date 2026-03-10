@@ -25,7 +25,7 @@ export default function Header() {
             </div>
 
             <div className="flex flex-col sm:flex-row items-center gap-4 mt-4">
-                <a href="https://drive.google.com/file/d/1tyTGYImPBqLuGHKLz1lodc7zQceAJ0Mt/view?usp=drive_link"
+                <a href="https://drive.google.com/file/d/1cr79URFd0rIxiLzEJOwvSljYqBw0hehe/view?usp=sharing"
                     target="_blank"
                     rel="noopener noreferrer"
                     className="px-10 py-2.5 border rounded-full bg-gradient-to-r from-[#b820e6] to-[#da7d20] text-white flex items-center gap-2 dark:border-transparent">
